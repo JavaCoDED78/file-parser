@@ -3,7 +3,6 @@ package com.javaded78.consumer;
 import com.javaded78.broker.Broker;
 import com.javaded78.domain.DataType;
 import com.javaded78.domain.stat.Statistics;
-import com.javaded78.exception.ReadFileException;
 import com.javaded78.exception.WriteFileException;
 import com.javaded78.service.stat.StatisticsStrategy;
 import com.javaded78.service.writer.Writer;

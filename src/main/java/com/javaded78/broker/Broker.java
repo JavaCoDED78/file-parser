@@ -7,7 +7,7 @@ import java.util.concurrent.BlockingQueue;
 
 public interface Broker {
 
-    public static final String EOF = "END_OF_FILE_SIGNAL";
+    String EOF = "END_OF_FILE_SIGNAL";
 
     void addTopic(BlockingQueue<String> topic,
                   DataType name);

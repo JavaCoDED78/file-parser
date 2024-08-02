@@ -2,7 +2,6 @@ package com.javaded78.service.stat.impl;
 
 import com.javaded78.domain.stat.FloatStatistics;
 import com.javaded78.domain.stat.ShortStatistics;
-import com.javaded78.exception.WriteFileException;
 import com.javaded78.service.stat.StatisticsStrategy;
 
 public class FloatStatisticsStrategy implements StatisticsStrategy {
